@@ -1,0 +1,12 @@
+server:
+  applicationContextPath: /
+  adminContextPath: /
+  applicationConnectors:
+    - type: http
+      port: 4321
+  adminConnectors:
+    - type: http
+      port: 4567
+
+swagger:
+  resourcePackage: all
